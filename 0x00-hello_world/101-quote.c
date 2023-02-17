@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <unistd.h>
 /**
  * main - progtam that prins without print functions
