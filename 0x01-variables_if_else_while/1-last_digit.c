@@ -2,19 +2,18 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
 /**
  * main - betty style documentation for last digit checking
- * Return = 0
+ * Return: Always 0 (Success)
  */
 int main(void)
+/* starting point */
 {
 	int n;
 	int A;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 
 	A = n % 10;
 	if (A > 5)
