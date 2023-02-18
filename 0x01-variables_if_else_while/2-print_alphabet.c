@@ -1,10 +1,23 @@
 #include <stdio.h>
+
 /**
- * main - starting point for alphabet game
+ * main - Entry point
+ *
+ * Description: print all aplhabet letters
+ *
  * Return: Always 0 (Success)
- */
+*/
 
 int main(void)
 {
-	char c;
-	
+	char ch = 'a';
+
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		++ch;
+	}
+	putchar('\n');
+
+	return (0);
+}
