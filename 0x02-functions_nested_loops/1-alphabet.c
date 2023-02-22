@@ -9,5 +9,5 @@ for (j = 'a'; j <= 'z'; j++)
 {
 _putchar(j);
 }
-putchar('\n');
+_putchar('\n');
 }
