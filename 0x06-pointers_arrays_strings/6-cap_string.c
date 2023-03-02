@@ -3,7 +3,7 @@
 /**
  * cap_string - Capitalizes
  * @str: The string
- * Return: A pointer 
+ * Return: A pointer
  */
 char *cap_string(char *str)
 {
