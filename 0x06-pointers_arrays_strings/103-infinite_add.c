@@ -32,7 +32,7 @@ void rev_string(char *n)
  * @n2: 2nd number to add
  * @r: pointes to buffer
  * @size_r: buffer size
- * Return: pointer 
+ * Return: pointer
  */
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
