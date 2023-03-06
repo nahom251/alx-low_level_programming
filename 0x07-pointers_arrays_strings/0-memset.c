@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _memset - fill a block of memory
- * @s: starting address 
+ * @s: starting address
  * @b: value desired
- * @n: number 
+ * @n: number
  * Return: changed array with new value for n bytes
  */
 char *_memset(char *s, char b, unsigned int n)
