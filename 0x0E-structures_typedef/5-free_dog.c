@@ -6,7 +6,7 @@
  * @d: structe
  */
 void free_dog(dog_t *d)
-	
+
 {
 if (d)
 {
